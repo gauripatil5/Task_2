@@ -1,0 +1,121 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    background: linear-gradient( #edb6e9, #e2dcda);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+/* Navigation Bar */
+nav {
+    width: 100%;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center;
+}
+
+/* Center the logo and text */
+.nav-center {
+    display: flex;
+    align-items: center;
+  
+}
+
+/* Logo Styling */
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+/* Welcome Text Styling */
+.nav-center h1 {
+    font-size: 24px;
+    color: rgb(141, 14, 146) !important; /* Force text color */
+    font-weight: bold;
+}
+
+
+/* Chat Container */
+.container {
+    max-width: 600px;
+    width: 100%;
+    height: 60vh;
+    overflow-y: auto;
+    border-radius: 12px;
+    background-color:rgb(247, 240, 245);
+    padding: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Message Styles */
+.message {
+    max-width: 75%;
+    padding: 10px 15px;
+    margin: 8px;
+    border-radius: 15px;
+    font-size: 16px;
+    word-wrap: break-word;
+    display: inline-block;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.left {
+    background:rgb(205, 119, 189);
+    color: rgb(243, 238, 238);
+    float: left;
+    clear: both;
+}
+
+.right {
+    background:rgb(147, 74, 162);
+    color: rgb(243, 238, 238);
+    float: right;
+    clear: both;
+}
+
+/* Chat Input Area */
+.send {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    margin-top: 10px;
+    
+}
+
+#send-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  
+}
+
+#messageInp {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    outline: none;
+    box-shadow: inset 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Send Button */
+.btn {
+    background-color:rgb(205, 119, 189);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+
